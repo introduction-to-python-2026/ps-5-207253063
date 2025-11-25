@@ -13,6 +13,7 @@ def split_before_uppercases(formula):
  return split_formula
 
 
+
 def split_at_digit(formula):
     digit_location =1
     for i, my_char in enumerate(formula[1:]):
